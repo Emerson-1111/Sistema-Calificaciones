@@ -1,0 +1,84 @@
+# ==========================================
+# .gitignore para Sistema de Calificaciones
+# ==========================================
+
+# ------------------------------------------
+# .NET / Visual Studio / C#
+# ------------------------------------------
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+**/.vs/
+*.user
+**/*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.publishsettings
+*.pubxml
+*.pubxml.user
+TestResults/
+**/TestResults/
+*.pdb
+*.dll
+*.exe
+
+# ------------------------------------------
+# Node.js / React / Vite
+# ------------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------
+# Archivos de Entorno y Secretos (Seguridad)
+# ------------------------------------------
+.env
+**/.env
+.env.local
+**/.env.local
+.env.*.local
+**/.env.*.local
+*.local.json
+**/*.local.json
+appsettings.Production.json
+**/appsettings.Production.json
+
+# Mantener plantillas de ejemplo
+!.env.example
+!**/.env.example
+!appsettings.Example.json
+!**/appsettings.Example.json
+
+# ------------------------------------------
+# Editores e IDEs
+# ------------------------------------------
+.idea/
+**/.idea/
+.vscode/*
+!**/.vscode/extensions.json
+!**/.vscode/settings.json
+*.swp
+*~
+
+# ------------------------------------------
+# Sistema Operativo
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
