@@ -113,7 +113,7 @@ export const MisGrupos = () => {
                                         </div>
                                     </div>
 
-                                    <div className="d-flex flex-column gap-2 mt-auto">
+                                    <div className="mt-auto">
                                         <Button 
                                             variant="primary" 
                                             className="w-100 py-2 fw-semibold d-flex align-items-center justify-content-center gap-2 shadow-xs"
@@ -122,15 +122,6 @@ export const MisGrupos = () => {
                                             <i className="bi bi-journal-check"></i>
                                             <span>Ver Actividades</span>
                                             <i className="bi bi-arrow-right"></i>
-                                        </Button>
-                                        <Button 
-                                            variant="outline-secondary" 
-                                            size="sm"
-                                            className="w-100 py-1 fw-medium d-flex align-items-center justify-content-center gap-1"
-                                            onClick={() => navigate(`/maestro/grupo/${g.id}?tab=detalles`)}
-                                        >
-                                            <i className="bi bi-info-circle"></i>
-                                            <span>Detalles del Grupo</span>
                                         </Button>
                                     </div>
                                 </Card.Body>

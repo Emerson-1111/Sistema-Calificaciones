@@ -297,16 +297,6 @@ export const GrupoDetalle = () => {
                         </div>
                         <div>
                             <div className="d-flex align-items-center gap-2 flex-wrap mb-1">
-                                <Button 
-                                    variant="light" 
-                                    size="sm" 
-                                    className="border py-1 px-2"
-                                    onClick={() => navigate('/maestro/mis-grupos')}
-                                    title="Volver a Mis Grupos"
-                                >
-                                    <i className="bi bi-arrow-left me-1"></i>
-                                    <span>Mis Grupos</span>
-                                </Button>
                                 <h2 className="h3 fw-bold mb-0 text-dark">
                                     {grupo?.nombreGrupo || `Grupo #${id}`}
                                 </h2>
